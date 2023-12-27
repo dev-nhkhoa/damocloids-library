@@ -12,6 +12,6 @@
   "author": "damocloids",
   "license": "ISC",
   "dependencies": {
-    "@npm/npm-cli-login": "^1.0.0"
+    "npm-cli-login": "^1.0.0"
   }
 }
