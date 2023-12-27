@@ -1,0 +1,14 @@
+{
+  "name": "damocloids-library",
+  "version": "1.0.0",
+  "description": "Package to store reuseable code & media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "damocloids-library"
+  ],
+  "author": "damocloids",
+  "license": "ISC"
+}
