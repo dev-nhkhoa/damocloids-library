@@ -10,8 +10,5 @@
     "damocloids-library"
   ],
   "author": "damocloids",
-  "license": "ISC",
-  "dependencies": {
-    "npm-cli-login": "^1.0.0"
-  }
+  "license": "ISC"
 }

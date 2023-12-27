@@ -1,10 +1,8 @@
-name:
-  Publish to npm
-  # Thay thế bằng phạm vi npm của bạn (nếu có)
+name: Publish to npm
 on:
   push:
     branches:
-      - main # Thay thế bằng tên nhánh mà bạn muốn theo dõi
+      - main
 
 jobs:
   publish:
@@ -14,22 +12,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: 14
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
 
       - name: Install dependencies
         run: npm ci
-
-      # - name: Login to npm
-      #   uses: npm-cli-login
-      #   with:
-      #     registry-url: https://registry.npmjs.org/
-      #     scope: <npm-scope> # Thay thế bằng phạm vi npm của bạn (nếu có)
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-      - name: Publish to npm
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} add thêm step đăng nhập
