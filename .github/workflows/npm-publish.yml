@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Login to npm
-        uses: npm/npm-cli-login@v1
+        uses: npm-cli-login
         with:
           registry-url: https://registry.npmjs.org/
           scope: <npm-scope> # Thay thế bằng phạm vi npm của bạn (nếu có)
