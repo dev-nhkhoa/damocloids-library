@@ -1,6 +1,6 @@
 {
   "name": "damocloids-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to store reuseable code & media",
   "main": "index.js",
   "scripts": {
